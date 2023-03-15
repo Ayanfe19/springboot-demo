@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-@Repository
+@Repository("fakeDao")
 public class FakePersonDataAcessService implements PersonDao {
     private static list<Person> DB = new ArrayList<>();
 
